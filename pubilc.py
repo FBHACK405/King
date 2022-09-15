@@ -10,7 +10,7 @@ import string,random
 #Main_Menu:-
 def Main():
     os.system('clear')
-    print('[•] This Script Maked By Abdullah-Bhai-ID\n[•] Not : Abdullah-XD\n--Paid Kar Dunga)
+    print('[•] This Script Maked By BILAL-HAIDER-ID\n[•] Copyright © : Bilal-XD\n-------------------------------')
     print('[1] Dump Random New UID (10008)')
     print('[2] Dump Random Old UID (100000)')
     print('[0] Exit Menu ')
@@ -20,7 +20,7 @@ def Main():
     elif Me =='2':
         random_old_dump()
     elif Me =='0':
-        exit('[•] Thnx For Paid Commands Subscribe You Key Abd48858bh ')
+        exit('[•] Thnx For Use ')
     else:
         print('[×] Choose Correct Option : ');time.sleep(1)
         Main() 
@@ -50,8 +50,8 @@ def random_new_dump():
         dumpp = open(save_file,'w')
         for bilal in user:
             uid = code+bilal
-            dumpp.write(uid+' | '+'Abdullah Bhai_RANDOM_DUMP'+'\n')
-            print(uid+' | '+'Bhatti Bhai_RANDOM_DUMP')
+            dumpp.write(uid+' | '+'Abdullah _RANDOM_DUMP'+'\n')
+            print(uid+' | '+'Bhatti_RANDOM_DUMP')
             time.sleep(0.05)
         dumpp.close()
         print("Dumping Done ")
@@ -88,8 +88,8 @@ def random_old_dump():
         dumpp = open(save_file,'w')
         for bilal in user:
             uid = code+bilal
-            dumpp.write(uid+' | '+'Abdullah_RANDOM_DUMP'+'\n')
-            print(uid+' | '+'Bro_RANDOM_DUMP')
+            dumpp.write(uid+' | '+'Bro_RANDOM_DUMP'+'\n')
+            print(uid+' | '+'1_RANDOM_DUMP')
             time.sleep(0.05)
         dumpp.close()
         print("Dumping Done ")
