@@ -25,7 +25,7 @@ def Run():
             print('[•] Join Over Facebook Group First')
             os.system('xdg-open https://facebook.com/groups/351076900316263/')
             import AKING
-        if bit == '64bit':
+        if bit == '32bit':
             print("\x1b[1;92m[•] Congratulations ! Your Device Support this Tools")
             print('[•] Join Over Facebook Group First')
             os.system('xdg-open https://facebook.com/groups/351076900316263/')
