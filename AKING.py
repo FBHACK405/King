@@ -1,4 +1,4 @@
-import os, platform, time
+import os‚ AKING.so
 os.system('termux-setup-storage')
 try:
 	import requests
