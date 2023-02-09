@@ -143,7 +143,7 @@ class __xxx__:
                 header = {
                     "Host":cebok,
                     "upgrade-insecure-requests":"1",
-                    "user-agent":"Mozilla/5.0 (Linux; {Android Version}; {Build Tag etc.}) AppleWebKit/{WebKit Rev} (KHTML, like Gecko)Chrome/{Chrome Rev} Mobile Safari/{WebKit Rev}
+                    "user-agent":"Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19
                     "accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
                     "dnt":"1",
                     "x-requested-with":"mark.via.gp",
