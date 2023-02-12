@@ -62,8 +62,7 @@ ua = []
 
 del ua
 """
-Mozilla/5.0 (iPad; cpacc OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Mozilla/5.0 (iPad; cpacc OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 [FBAN/MessengerForiOS;FBAV/122.0.0.40.69;FBBV/61279955;FBDV/iPad4,1;FBMD/iPad;FBSN/iOS;FBSV/10.1.1;FBSS/2;FBCR/;FBID/tablet;FBLC/vi_VN;FBOP/5;FBRV/0]
-"""
+Mozilla/5.0 (Linux; Android 9; itel L5002P Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.117 Mobile Safari/537.36[FBAN/EMA;FBLC/pt_PT;FBAV/340.0.0.9.76;]"""
 
 ua=[]
 
@@ -86,7 +85,7 @@ logo= f'''
 \033[1;93m=================================
 \033[1;97m Owner  : Abdullah405
 \033[1;97m GitHub : Bhatti-405 :/
-\033[1;97m Version:\033[1;92m 0.8 \033[1;97m:/
+\033[1;97m Version:\033[1;92m 0.9 \033[1;97m:/
 \033[1;97m Status : Free :/
 \033[1;97m Notice : Use 10007/10006 For More OK Ids :/
 \033[1;93m=================================
@@ -491,7 +490,7 @@ def andom():
             if 'session_key' in response.text:
                 okacc.append(acc)
                 print('\r\033[1;92m[\033[1;97mHANNAN-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('/sdcard/Hannan-OK.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/Abdullah-OK.txt','a').write(f'{acc} • {pword}\n')
                 if 'y' in apps:
                 	check(r,coki)
                 if c=='y':
@@ -509,7 +508,7 @@ def andom():
                 else:
                      print('\r\033[1;91m[\033[1;97mHANNAN-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
                 cpacc.append(acc)
-                open('/sdcard/Hannan-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/Abdullah-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
