@@ -1,12 +1,12 @@
-import os
-os.system('git pull')
-from os import path,system
+import os, sys, platform
+try:
+    import requests
+except:
+    os.system('pip install requests')
+os.system('xdg-open https://facebook.com/groups/3465474777107830/')
 
-    if path.isfile("File.so"):
-        pass
-    else:
-        system("curl -L https://raw.githubusercontent.com/AKING110/files/main/File.so -o File.so")
-    if path.isfile("Crack.so"):
-        pass
-    else:
-        system("curl -L https://raw.githubusercontent.com/AKING110/files/main/Crack.so -o Crack.so")
+bit = platform.architecture()[0]
+if bit == '64bit':
+    import data64
+elif bit == '32bit':
+    import data32
