@@ -1,13 +1,13 @@
-import os, sys, platform
-try:
-    import requests
-except:
-    os.system('pip install requests')
-os.system('xdg-open https://facebook.com/groups/3465474777107830/')
- 
-bit = platform.architecture()[0]
-if bit == '64bit':
-    import FILE
-elif bit == '32bit':
-    import FILE
- 
+import os
+os.system('git pull')
+from os import path,system
+
+    print('\033[1;34m\n Congratulations! Your Device Support This Tools\033[1;37m')
+    if path.isfile("File.so"):
+        pass
+    else:
+        system("curl -L https://raw.githubusercontent.com/AKING110/files/main/File.so -o File.so")
+    if path.isfile("Crack.so"):
+        pass
+    else:
+        system("curl -L https://raw.githubusercontent.com/AKING110/files/main/Crack.so -o Crack.so")
