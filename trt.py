@@ -7,7 +7,7 @@ os.system('xdg-open https://facebook.com/groups/3465474777107830/')
  
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import file64
+    import TRT64
 elif bit == '32bit':
-    import file32
+    import TRT32
  
