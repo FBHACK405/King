@@ -8,7 +8,7 @@ os.system('xdg-open https://facebook.com/groups/3465474777107830/')
  
 bit = platform.architecture()[0]
 if bit == '64bit':
-    import L64
+    import data64
 elif bit == '32bit':
-    import L32
+    import data32
  
